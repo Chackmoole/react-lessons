@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  StyledTitle,
+  StyledTitleH2,
   StyledImg,
   StyledCard,
   StyledInner,
@@ -8,24 +8,23 @@ import {
   StyledProductButton,
 } from 'components/Product/styled';
 
-const Product = (props) => {
-  // console.log(props, 'props');
+const Product = ({ name, weight, image, price, taste }) => {
   return (
     <li>
       <StyledCard>
-        <StyledImg src={props.image} alt={props.name} />
-        <StyledTitle>{props.name}</StyledTitle>
+        <StyledImg src={image} alt={name} />
+        <StyledTitleH2>{name}</StyledTitleH2>
         <StyledInner>
           <StyledProductText>Масса</StyledProductText>
-          <StyledProductText>{props.weight} г</StyledProductText>
+          <StyledProductText>{weight} г</StyledProductText>
         </StyledInner>
         <StyledInner>
           <StyledProductText>Вкус</StyledProductText>
-          <StyledProductText>{props.taste}</StyledProductText>
+          <StyledProductText>{taste}</StyledProductText>
         </StyledInner>
         <StyledInner>
           <StyledProductText>Цена</StyledProductText>
-          <StyledProductText>{props.price} Р.</StyledProductText>
+          <StyledProductText>{price} Р.</StyledProductText>
         </StyledInner>
         <StyledProductButton>заказать</StyledProductButton>
       </StyledCard>

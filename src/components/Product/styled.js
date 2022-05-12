@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Button from 'components/Button/Button';
+import Button from 'common/Button/Button';
 
 export const StyledCard = styled.section`
   padding: 0 36px 40px;
@@ -12,7 +12,7 @@ export const StyledImg = styled.img`
   display: block;
 `;
 
-export const StyledTitle = styled.h2`
+export const StyledTitleH2 = styled.h2`
   font-weight: 400;
   font-family: 'Oswald', serif;
   font-size: 20px;
