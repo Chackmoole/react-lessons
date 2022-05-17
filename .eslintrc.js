@@ -16,7 +16,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/CrossSale.styled.js'],
+      files: ['**/CrossSale.GiftBlock.styled.js'],
       rules: {
         'import/prefer-default-export': 0,
       },

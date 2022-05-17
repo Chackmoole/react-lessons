@@ -14,6 +14,7 @@ export const StyledCrossSaleItem = styled.li`
   }
 `;
 
+//обратить внимание
 export const StyledCrossSaleTitle = styled(StyledTitleH3)`
   margin: 0;
   width: 325px;
@@ -30,6 +31,7 @@ export const StyledCrossSalePrice = styled.p`
   margin-right: 20px;
 `;
 
+//обратить внимание
 export const StyledCrossSaleButton = styled(StyledButton)`
   width: 244px;
 `;
