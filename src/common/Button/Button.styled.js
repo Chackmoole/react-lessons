@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const StyledButton = styled.button`
   background-color: #68b738;
@@ -10,4 +10,12 @@ export const StyledButton = styled.button`
   border: none;
   min-width: 168px;
   text-transform: uppercase;
+
+  ${(props) => {
+    if (props.width) {
+      return css`
+        width: ${props.width};
+      `;
+    }
+  }}
 `;

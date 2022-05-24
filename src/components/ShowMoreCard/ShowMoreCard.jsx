@@ -4,9 +4,8 @@ import {
   StyledIconAdd,
   StyledProductButtonAdd,
   StyledAddCardInner,
-  StyledCardDescription,
-  StyledShowMoreTitle,
-} from './styled';
+} from './ShowMoreCard.styled';
+import Text from 'common/Text/Text';
 
 const ShowMoreCard = () => {
   return (
@@ -14,8 +13,12 @@ const ShowMoreCard = () => {
       <StyledAddCardInner>
         <div>
           <StyledIconAdd />
-          <StyledShowMoreTitle>Показать еще 100500 товаров</StyledShowMoreTitle>
-          <StyledCardDescription>На самом деле вкусов гораздо больше!</StyledCardDescription>
+          <Text mb="24px" textCenter variant="h3" as="h3">
+            Показать еще 100500 товаров
+          </Text>
+          <Text variant="body1" textCenter color="lightGray">
+            На самом деле вкусов гораздо больше!
+          </Text>
         </div>
         <StyledProductButtonAdd>показать все</StyledProductButtonAdd>
       </StyledAddCardInner>

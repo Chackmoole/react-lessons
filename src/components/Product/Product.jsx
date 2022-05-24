@@ -1,30 +1,31 @@
 import React from 'react';
 import {
-  StyledTitleH2,
   StyledImg,
   StyledCard,
   StyledInner,
-  StyledProductText,
   StyledProductButton,
-} from 'components/Product/styled';
+} from 'components/Product/Product.styled';
+import Text from 'common/Text/Text';
 
 const Product = ({ name, weight, image, price, taste }) => {
   return (
     <li>
       <StyledCard>
         <StyledImg src={image} alt={name} />
-        <StyledTitleH2>{name}</StyledTitleH2>
+        <Text width="145px" textCenter variant="h3" as="h3" mx="auto" mb="24px">
+          {name}
+        </Text>
         <StyledInner>
-          <StyledProductText>Масса</StyledProductText>
-          <StyledProductText>{weight} г</StyledProductText>
+          <Text color="lightGray">Масса</Text>
+          <Text color="lightGray">{weight} г</Text>
         </StyledInner>
         <StyledInner>
-          <StyledProductText>Вкус</StyledProductText>
-          <StyledProductText>{taste}</StyledProductText>
+          <Text color="lightGray">Вкус</Text>
+          <Text color="lightGray">{taste}</Text>
         </StyledInner>
         <StyledInner>
-          <StyledProductText>Цена</StyledProductText>
-          <StyledProductText>{price} Р.</StyledProductText>
+          <Text color="lightGray">Цена</Text>
+          <Text color="lightGray">{price} Р.</Text>
         </StyledInner>
         <StyledProductButton>заказать</StyledProductButton>
       </StyledCard>

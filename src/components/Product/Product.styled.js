@@ -12,17 +12,6 @@ export const StyledImg = styled.img`
   display: block;
 `;
 
-export const StyledTitleH2 = styled.h2`
-  font-weight: 400;
-  font-family: 'Oswald', serif;
-  font-size: 20px;
-  line-height: 21px;
-  text-align: center;
-  width: 145px;
-  display: block;
-  margin: 0 auto 28px;
-`;
-
 export const StyledInner = styled.div`
   display: flex;
   justify-content: space-between;
@@ -33,15 +22,6 @@ export const StyledInner = styled.div`
   &:last-of-type {
     margin-bottom: 32px;
   }
-`;
-
-export const StyledProductText = styled.p`
-  font-family: 'Arial', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #444444;
 `;
 
 export const StyledProductButton = styled(Button)`

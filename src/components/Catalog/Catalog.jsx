@@ -1,13 +1,16 @@
 import React from 'react';
 import Product from '../Product/Product';
 import ShowMoreCard from '../ShowMoreCard/ShowMoreCard';
-import { StyledWrapper, StyledCatalog, StyledTitle } from 'components/Catalog/styled';
+import { StyledWrapper, StyledCatalog } from 'components/Catalog/styled';
 import { data } from './data';
+import Text from 'common/Text/Text';
 
 const Catalog = () => {
   return (
     <StyledCatalog>
-      <StyledTitle>Каталог продукции</StyledTitle>
+      <Text mb="84px" variant="h1" as="h1">
+        Каталог продукции
+      </Text>
       <StyledWrapper>
         {data.map((item) => {
           // console.log(item);

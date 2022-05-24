@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 import Button from 'common/Button/Button';
 import IconAdd from 'common/icons/IconAdd';
-import TitleH2 from 'common/TitleH2/TitleH2';
 
 export const StyledAddCardWrapper = styled.li`
   padding-top: 80px;
@@ -23,19 +22,6 @@ export const StyledIconAdd = styled(IconAdd)`
   display: block;
   margin: 0 auto;
   margin-bottom: 48px;
-`;
-
-export const StyledShowMoreTitle = styled(TitleH2)`
-  margin-bottom: 24px;
-`;
-
-export const StyledCardDescription = styled.p`
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: #444444;
 `;
 
 export const StyledProductButtonAdd = styled(Button)`

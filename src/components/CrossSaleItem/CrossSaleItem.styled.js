@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import { StyledTitleH3 } from 'common/TitleH3/styled';
-import { StyledButton } from 'common/Button/styled';
+import Text from 'common/Text/Text';
 
 export const StyledCrossSaleItem = styled.li`
   display: flex;
@@ -14,24 +13,12 @@ export const StyledCrossSaleItem = styled.li`
   }
 `;
 
-//обратить внимание
-export const StyledCrossSaleTitle = styled(StyledTitleH3)`
-  margin: 0;
+export const StyledTitle = styled(Text)`
   width: 325px;
-  text-align: left;
   text-transform: uppercase;
-`;
-
-export const StyledCrossSaleWeight = styled.p`
-  width: 244px;
 `;
 
 export const StyledCrossSalePrice = styled.p`
   width: 60px;
-  margin-right: 20px;
-`;
-
-//обратить внимание
-export const StyledCrossSaleButton = styled(StyledButton)`
-  width: 244px;
+  margin-right: 30px;
 `;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledNavLink } from 'components/Nav/styled';
+import { StyledNavLink } from 'components/Nav/Nav.styled';
 
 const Nav = () => {
   return (
