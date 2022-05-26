@@ -120,4 +120,16 @@ export const StyledText = styled.p`
       `;
     }
   }}
+
+  ${(props) => {
+    if (props.whithBg) {
+      return css`
+        background-color: #ffffff;
+        padding-left: 40px;
+        padding-right: 36px;
+        margin-left: -40px;
+        display: inline-block;
+      `;
+    }
+  }}
 `;

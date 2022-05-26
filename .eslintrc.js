@@ -16,7 +16,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/CrossSale.GiftBlock.Product.ShowMoreCard.Nav.Button.styled.js'],
+      files: ['**/CrossSale.GiftBlock.Product.ShowMoreCard.Nav.Button.VisuallyHidden.styled.js'],
       rules: {
         'import/prefer-default-export': 0,
       },

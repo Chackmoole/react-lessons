@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledVisuallyHidden } from 'common/VisuallyHidden/styled';
+import { StyledVisuallyHidden } from 'common/VisuallyHidden/VisuallyHidden.styled';
 
 const VisuallyHidden = ({ children }) => {
   return <StyledVisuallyHidden>{children}</StyledVisuallyHidden>;

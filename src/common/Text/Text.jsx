@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyledText } from 'common/Text/Text.styled';
 
-export const Text = ({
+const Text = ({
   children,
   variant,
   textCenter,
@@ -13,6 +13,7 @@ export const Text = ({
   mb,
   ml,
   width,
+  whithBg,
   ...props
 }) => {
   // console.log(props, 'other props');
@@ -28,6 +29,7 @@ export const Text = ({
       ml={ml}
       textCenter={textCenter}
       width={width}
+      whithBg={whithBg}
       {...props}
     >
       {children}
