@@ -8,7 +8,9 @@ const Footer = () => {
   return (
     <StyledFooter>
       <StyledWrapperFooter>
-        <FooterLogo />
+        <a href="replaceMe">
+          <FooterLogo />
+        </a>
         <Socials />
         <HtmlAcademyLink />
       </StyledWrapperFooter>
