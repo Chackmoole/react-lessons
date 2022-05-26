@@ -1,6 +1,6 @@
 import React from 'react';
 import HtmlAcademyLogo from 'src/common/icons/HtmlAcademyLogo';
-import { StyledHtmlAcademyDescription, StyledHtmlAcademyLink } from './styled';
+import { StyledHtmlAcademyDescription, StyledHtmlAcademyLink } from './HtmlAcademyLink.styled';
 
 const HtmlAcademyLink = () => {
   return (

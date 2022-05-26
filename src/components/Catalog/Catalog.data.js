@@ -6,7 +6,7 @@ import productImage3 from 'src/assets/images/product3.png';
 import productImage3Max from 'src/assets/images/product3Max.png';
 import productImage4 from 'src/assets/images/product4.png';
 
-export const data = [
+export const catalogData = [
   {
     id: 1,
     weight: '500',

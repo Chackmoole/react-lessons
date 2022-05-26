@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledFooter, StyledWrapperFooter } from 'components/Footer/styled';
+import { StyledFooter, StyledWrapperFooter } from 'components/Footer/Footer.styled';
 import HtmlAcademyLink from 'components/HtmlAcademyLink/HtmlAcademyLink';
 import FooterLogo from 'common/icons/FooterLogo';
 import Socials from 'components/Socials/Socials';

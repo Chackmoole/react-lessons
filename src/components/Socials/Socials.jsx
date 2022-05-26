@@ -3,7 +3,7 @@ import VisuallyHidden from 'common/VisuallyHidden/VisuallyHidden';
 import IconVK from 'common/icons/IconVK';
 import IconFacebook from 'common/icons/IconFacebook';
 import IconInstagram from 'common/icons/IconInstagram';
-import { StyledSocialsItem, StyledSocialsList } from './styled';
+import { StyledSocialsItem, StyledSocialsList } from './Socials.styled';
 
 const Socials = () => {
   return (

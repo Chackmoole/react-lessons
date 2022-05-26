@@ -1,8 +1,8 @@
 import React from 'react';
 import Product from '../Product/Product';
 import ShowMoreCard from '../ShowMoreCard/ShowMoreCard';
-import { StyledWrapper, StyledCatalog } from 'components/Catalog/styled';
-import { data } from './data';
+import { StyledWrapper, StyledCatalog } from 'components/Catalog/Catalog.styled';
+import { catalogData } from './Catalog.data';
 import Text from 'common/Text/Text';
 
 const Catalog = () => {
@@ -12,7 +12,7 @@ const Catalog = () => {
         Каталог продукции
       </Text>
       <StyledWrapper>
-        {data.map((item) => {
+        {catalogData.map((item) => {
           // console.log(item);
           return (
             <Product
