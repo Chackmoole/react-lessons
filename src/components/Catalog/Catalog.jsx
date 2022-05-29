@@ -13,7 +13,6 @@ const Catalog = () => {
       </Text>
       <StyledWrapper>
         {catalogData.map((item) => {
-          // console.log(item);
           return (
             <Product
               weight={item.weight}

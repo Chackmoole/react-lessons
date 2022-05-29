@@ -16,7 +16,6 @@ export const StyledNavLink = styled.a`
   }
 
   ${(props) => {
-    // console.log(props);
     if (props.isActive) {
       return css`
         position: relative;

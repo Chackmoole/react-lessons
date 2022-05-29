@@ -10,7 +10,7 @@ export const CrossSale = () => {
   return (
     <BlockWithLine>
       <StyledCrossSale>
-        <Text variant="h2" as="h2" mb="80px" whithBg>
+        <Text variant="h2" as="h2" mb="80px" withBg>
           Дополнительные товары
         </Text>
         <StyledInner>

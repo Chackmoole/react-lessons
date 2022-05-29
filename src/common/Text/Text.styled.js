@@ -122,7 +122,7 @@ export const StyledText = styled.p`
   }}
 
   ${(props) => {
-    if (props.whithBg) {
+    if (props.withBg) {
       return css`
         background-color: #ffffff;
         padding-left: 40px;

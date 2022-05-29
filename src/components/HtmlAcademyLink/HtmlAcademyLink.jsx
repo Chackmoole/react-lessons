@@ -1,11 +1,14 @@
 import React from 'react';
 import HtmlAcademyLogo from 'src/common/icons/HtmlAcademyLogo';
-import { StyledHtmlAcademyDescription, StyledHtmlAcademyLink } from './HtmlAcademyLink.styled';
+import { StyledHtmlAcademyLink } from './HtmlAcademyLink.styled';
+import Text from 'common/Text/Text';
 
 const HtmlAcademyLink = () => {
   return (
     <StyledHtmlAcademyLink href="https://htmlacademy.ru">
-      <StyledHtmlAcademyDescription>HTML Academy</StyledHtmlAcademyDescription>
+      <Text mr="24px" color="lightGray" variant="body1">
+        HTML Academy
+      </Text>
       <HtmlAcademyLogo />
     </StyledHtmlAcademyLink>
   );

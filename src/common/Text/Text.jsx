@@ -13,10 +13,9 @@ const Text = ({
   mb,
   ml,
   width,
-  whithBg,
+  withBg,
   ...props
 }) => {
-  // console.log(props, 'other props');
   return (
     <StyledText
       variant={variant}
@@ -29,7 +28,7 @@ const Text = ({
       ml={ml}
       textCenter={textCenter}
       width={width}
-      whithBg={whithBg}
+      withBg={withBg}
       {...props}
     >
       {children}
