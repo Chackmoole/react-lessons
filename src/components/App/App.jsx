@@ -1,6 +1,18 @@
 import React from 'react';
-import { StyledApp } from 'components/App/styled';
+import Header from '../Header/Header';
+import Catalog from '../Catalog/Catalog';
+import Footer from '../Footer/Footer';
+import CrossSale from 'components/CrossSale/CrossSale';
 
-const App = () => <StyledApp>This is my first component</StyledApp>;
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Catalog />
+      <CrossSale />
+      <Footer />
+    </>
+  );
+};
 
 export default App;

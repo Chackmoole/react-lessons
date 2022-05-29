@@ -16,7 +16,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/styled.js'],
+      files: ['**/.styled.js'],
       rules: {
         'import/prefer-default-export': 0,
       },

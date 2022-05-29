@@ -35,7 +35,7 @@ module.exports = {
   },
   devServer: {
     compress: false,
-    port: 8080,
+    port: 3000,
     open: true,
     historyApiFallback: true,
   },
@@ -82,6 +82,7 @@ module.exports = {
     alias: {
       src: path.resolve(__dirname, `src`),
       components: path.resolve(__dirname, `src/components`),
+      common: path.resolve(__dirname, `src/common`),
     },
     extensions: [`.js`, `.jsx`],
   },
