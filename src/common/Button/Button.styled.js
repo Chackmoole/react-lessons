@@ -18,4 +18,14 @@ export const StyledButton = styled.button`
       `;
     }
   }}
+
+  ${(props) => {
+    if (props.height) {
+      return css`
+        min-height: ${props.height};
+      `;
+    }
+  }}
+
+  $
 `;
